@@ -39,7 +39,7 @@ int main() {//int argc, char** argv
 				jugar.mostrarTableroVisible();
 				jugar.desvelarCasilla(fila, columna);
 				jugar.mostrarTableroOculto();
-			
+				
 				do
 				{
 				while (fila >= 0 && fila < jugar.getFila() && columna >=0 && columna < jugar.getColumna()){
